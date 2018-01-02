@@ -21,7 +21,7 @@
   <groupId>org.actframework</groupId>
   <artifactId>act-starters</artifactId>
   <packaging>pom</packaging>
-  <version>1.6.0-BETA2</version>
+  <version>1.6.0-BETA3-SNAPSHOT</version>
 
   <name>ActFramework Starters</name>
   <description>ActFramework Starters</description>
