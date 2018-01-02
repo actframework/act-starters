@@ -18,26 +18,24 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>act-starter-ebean2</artifactId>
-  <name>ActFramework Starter - Ebean2</name>
-  <description>Starter for ActFramework application on JDK8 use Ebean for SQL database access</description>
+  <artifactId>act-starter-excel</artifactId>
+  <name>ActFramework Starter - Excel</name>
+  <description>Starter for ActFramework application with excel reporting</description>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.6.2-SNAPSHOT</version>
+    <version>${revision}</version>
   </parent>
 
   <dependencies>
     <dependency>
       <groupId>org.actframework</groupId>
-      <artifactId>act-ebean2</artifactId>
+      <artifactId>act-excel</artifactId>
     </dependency>
   </dependencies>
 

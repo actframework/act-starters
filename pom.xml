@@ -20,7 +20,7 @@
 
   <artifactId>act-starters</artifactId>
   <packaging>pom</packaging>
-  <version>1.6.2-SNAPSHOT</version>
+  <version>${revision}</version>
 
   <name>ActFramework Starters</name>
   <description>ActFramework Starters</description>
@@ -33,6 +33,7 @@
   </parent>
 
   <properties>
+    <revision>1.6.0.1-SNAPSHOT</revision>
     <main.basedir>${basedir}</main.basedir>
     <scm.url>git@github.com:actframework/act-starters.git</scm.url>
     <app.entry>ToBeOverwritten</app.entry>
@@ -50,6 +51,11 @@
     <act-storage.version>0.12.0</act-storage.version>
     <act-thymeleaf.version>1.2.0</act-thymeleaf.version>
     <act-velocity.version>1.2.0</act-velocity.version>
+
+    <h2.version>1.4.196</h2.version>
+    <HikariCP-java7.version>2.4.13</HikariCP-java7.version>
+    <HikariCP.version>2.7.4</HikariCP.version>
+    <druid.version>1.1.6</druid.version>
   </properties>
 
   <scm>
@@ -66,17 +72,17 @@
   <modules>
     <module>act-starter-parent</module>
     <module>act-starter-beetl</module>
-    <module>act-starter-ebean</module>
     <module>act-starter-ebean-aaa</module>
     <module>act-starter-ebean-all</module>
-    <module>act-starter-ebean2</module>
     <module>act-starter-ebean2-aaa</module>
     <module>act-starter-ebean2-all</module>
+    <module>act-starter-excel</module>
     <module>act-starter-freemarker</module>
-    <module>act-starter-morphia</module>
     <module>act-starter-morphia-aaa</module>
     <module>act-starter-morphia-all</module>
     <module>act-starter-mustache</module>
+    <module>act-starter-velocity</module>
+    <module>act-starter-thymeleaf</module>
   </modules>
 
   <build>
@@ -119,6 +125,26 @@
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <version>${h2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.zaxxer</groupId>
+        <artifactId>HikariCP-java7</artifactId>
+        <version>${HikariCP-java7.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.zaxxer</groupId>
+        <artifactId>HikariCP</artifactId>
+        <version>${HikariCP.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid</artifactId>
+        <version>${druid.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-aaa</artifactId>
@@ -178,6 +204,71 @@
         <groupId>org.actframework</groupId>
         <artifactId>act-velocity</artifactId>
         <version>${act-velocity.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-parent</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-beetl</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-ebean-aaa</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-ebean-all</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-ebean2-aaa</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-ebean2-all</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-excel</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-freemarker</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-morphia-aaa</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-morphia-all</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-mustache</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-thymeleaf</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.actframework</groupId>
+        <artifactId>act-starter-velocity</artifactId>
+        <version>${revision}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
