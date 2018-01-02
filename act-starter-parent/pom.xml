@@ -47,6 +47,62 @@
   </dependencies>
 
   <build>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+        <excludes>
+          <exclude>**/*.7z</exclude>
+          <exclude>**/*.bz2</exclude>
+          <exclude>**/*.exe</exclude>
+          <exclude>**/*.pdf</exclude>
+          <exclude>**/*.doc</exclude>
+          <exclude>**/*.docx</exclude>
+          <exclude>**/*.ppt</exclude>
+          <exclude>**/*.pptx</exclude>
+          <exclude>**/*.eot</exclude>
+          <exclude>**/*.woff</exclude>
+          <exclude>**/*.jpg</exclude>
+          <exclude>**/*.png</exclude>
+          <exclude>**/*.gif</exclude>
+          <exclude>**/*.ico</exclude>
+          <exclude>**/*.tgz</exclude>
+          <exclude>**/*.avi</exclude>
+          <exclude>**/*.mov</exclude>
+          <exclude>**/*.mp3</exclude>
+          <exclude>**/*.xls</exclude>
+          <exclude>**/*.xlsx</exclude>
+          <exclude>**/*.zip</exclude>
+        </excludes>
+      </resource>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>false</filtering>
+        <includes>
+          <include>**/*.7z</include>
+          <include>**/*.bz2</include>
+          <include>**/*.exe</include>
+          <include>**/*.pdf</include>
+          <include>**/*.doc</include>
+          <include>**/*.docx</include>
+          <include>**/*.ppt</include>
+          <include>**/*.pptx</include>
+          <include>**/*.eot</include>
+          <include>**/*.woff</include>
+          <include>**/*.jpg</include>
+          <include>**/*.png</include>
+          <include>**/*.gif</include>
+          <include>**/*.ico</include>
+          <include>**/*.tgz</include>
+          <include>**/*.avi</include>
+          <include>**/*.mov</include>
+          <include>**/*.mp3</include>
+          <include>**/*.xlsx</include>
+          <include>**/*.xls</include>
+          <include>**/*.zip</include>
+        </includes>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
