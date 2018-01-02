@@ -64,7 +64,6 @@
   </issueManagement>
 
   <modules>
-    <module>act-starter-assembly-descriptor</module>
     <module>act-starter-parent</module>
     <module>act-starter-beetl</module>
     <module>act-starter-ebean</module>
