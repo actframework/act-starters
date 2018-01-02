@@ -21,7 +21,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.6.0-BETA1</version>
+    <version>1.6.0-BETA2-SNAPSHOT</version>
   </parent>
 
   <artifactId>act-starter-morphia</artifactId>
