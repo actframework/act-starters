@@ -18,10 +18,9 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.actframework</groupId>
   <artifactId>act-starters</artifactId>
   <packaging>pom</packaging>
-  <version>1.6.0</version>
+  <version>1.6.0-SNAPSHOT</version>
 
   <name>ActFramework Starters</name>
   <description>ActFramework Starters</description>
@@ -34,7 +33,6 @@
   </parent>
 
   <properties>
-    <revision>1.6.0-BETA1-SNAPSHOT</revision>
     <main.basedir>${basedir}</main.basedir>
     <scm.url>git@github.com:actframework/act-starters.git</scm.url>
     <app.entry>ToBeOverwritten</app.entry>
