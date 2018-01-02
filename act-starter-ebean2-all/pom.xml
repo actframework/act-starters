@@ -31,14 +31,14 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.6.1-SNAPSHOT</version>
+    <version>1.6.1</version>
   </parent>
 
   <dependencies>
     <dependency>
       <groupId>org.actframework</groupId>
       <artifactId>act-starter-ebean2-aaa</artifactId>
-      <version>1.6.1-SNAPSHOT</version>
+      <version>1.6.1</version>
     </dependency>
     <dependency>
       <groupId>org.actframework</groupId>
