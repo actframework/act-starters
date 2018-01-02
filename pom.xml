@@ -21,7 +21,7 @@
   <groupId>org.actframework</groupId>
   <artifactId>act-starters</artifactId>
   <packaging>pom</packaging>
-  <version>1.6.0-BETA3-SNAPSHOT</version>
+  <version>1.6.0-SNAPSHOT</version>
 
   <name>ActFramework Starters</name>
   <description>ActFramework Starters</description>
@@ -66,15 +66,20 @@
   </issueManagement>
 
   <modules>
+    <module>act-starter-assembly-descriptor</module>
     <module>act-starter-parent</module>
+    <module>act-starter-beetl</module>
     <module>act-starter-ebean</module>
     <module>act-starter-ebean-aaa</module>
+    <module>act-starter-ebean-all</module>
     <module>act-starter-ebean2</module>
     <module>act-starter-ebean2-aaa</module>
     <module>act-starter-ebean2-all</module>
+    <module>act-starter-freemarker</module>
     <module>act-starter-morphia</module>
     <module>act-starter-morphia-aaa</module>
     <module>act-starter-morphia-all</module>
+    <module>act-starter-mustache</module>
   </modules>
 
   <build>

@@ -18,14 +18,12 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>act-starter-ebean2</artifactId>
-  <name>ActFramework Starter - Ebean2</name>
-  <description>Starter for ActFramework application on JDK8 use Ebean for SQL database access</description>
+  <artifactId>act-starter-freemarker</artifactId>
+  <name>ActFramework Starter - FreeMarker</name>
+  <description>Starter for ActFramework application use FreeMarker as default template engine</description>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <parent>
@@ -37,7 +35,7 @@
   <dependencies>
     <dependency>
       <groupId>org.actframework</groupId>
-      <artifactId>act-ebean2</artifactId>
+      <artifactId>act-freemarker</artifactId>
     </dependency>
   </dependencies>
 

@@ -19,8 +19,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>act-starter-ebean2-all</artifactId>
-  <name>ActFramework Starter Ebean2, AAA, Storage and Social Link</name>
-  <description>Starter for ActFramework application on JDK8 use Ebean (for SQL database access), AAA (for security), Storage (for blob storage to different platforms including local disk and AWS S3) and Social Link (for social platform connection</description>
+  <name>ActFramework Starter - Ebean2 and multiple plugins</name>
+  <description>Starter for ActFramework application on JDK8 use Ebean (for SQL database access), AAA (for security), Storage (for blob storage to different platforms including local disk and AWS S3) and SocialLink (for social platform connection</description>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
@@ -31,14 +31,14 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.6.0-BETA3-SNAPSHOT</version>
+    <version>1.6.0-SNAPSHOT</version>
   </parent>
 
   <dependencies>
     <dependency>
       <groupId>org.actframework</groupId>
       <artifactId>act-starter-ebean2-aaa</artifactId>
-      <version>1.6.0-BETA3-SNAPSHOT</version>
+      <version>1.6.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.actframework</groupId>

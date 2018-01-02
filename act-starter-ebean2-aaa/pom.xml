@@ -19,7 +19,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>act-starter-ebean2-aaa</artifactId>
-  <name>ActFramework Starter Ebean2 and AAA</name>
+  <name>ActFramework Starter - Ebean2 and AAA</name>
   <description>Starter for ActFramework application on JDK8 use Ebean (for SQL database access) and AAA (for security)</description>
 
   <properties>
@@ -31,14 +31,14 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.6.0-BETA3-SNAPSHOT</version>
+    <version>1.6.0-SNAPSHOT</version>
   </parent>
 
   <dependencies>
     <dependency>
       <groupId>org.actframework</groupId>
       <artifactId>act-starter-ebean2</artifactId>
-      <version>1.6.0-BETA3-SNAPSHOT</version>
+      <version>1.6.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.actframework</groupId>

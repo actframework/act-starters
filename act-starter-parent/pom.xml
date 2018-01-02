@@ -20,18 +20,28 @@
 
   <artifactId>act-starter-parent</artifactId>
   <name>ActFramework Starter Parent</name>
+  <packaging>pom</packaging>
   <description>Parent for ActFramework application</description>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
     <maven-assemply-plugin.version>3.1.0</maven-assemply-plugin.version>
+    <logback.version>1.2.3</logback.version>
   </properties>
 
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.6.0-BETA3-SNAPSHOT</version>
+    <version>1.6.0-SNAPSHOT</version>
   </parent>
+
+  <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>${logback.version}</version>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
@@ -39,6 +49,13 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
         <version>${maven-assemply-plugin.version}</version>
+        <dependencies>
+          <dependency>
+            <groupId>org.actframework</groupId>
+            <artifactId>act-starter-assembly-descriptor</artifactId>
+            <version>1.6.0-SNAPSHOT</version>
+          </dependency>
+        </dependencies>
         <executions>
           <execution>
             <id>create-archive</id>
@@ -48,9 +65,9 @@
             </goals>
             <configuration>
               <appendAssemblyId>false</appendAssemblyId>
-              <descriptors>
-                <descriptor>act-starter-parent/src/main/assembly/pkg.xml</descriptor>
-              </descriptors>
+              <descriptorRefs>
+                <descriptorRef>act-app-pkg</descriptorRef>
+              </descriptorRefs>
               <outputDirectory>${project.build.directory}/dist/</outputDirectory>
             </configuration>
           </execution>
