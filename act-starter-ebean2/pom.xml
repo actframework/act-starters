@@ -19,7 +19,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>act-starter-ebean2</artifactId>
-  <name>ActFramework Starter Ebean</name>
+  <name>ActFramework Starter Ebean2</name>
   <description>Starter for ActFramework application on JDK8 use Ebean for SQL database access</description>
 
   <properties>

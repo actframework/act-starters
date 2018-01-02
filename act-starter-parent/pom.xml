@@ -18,12 +18,13 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>act-starter-ebean</artifactId>
-  <name>ActFramework Starter Ebean</name>
-  <description>Starter for ActFramework application require act-ebean plugin</description>
+  <artifactId>act-starter-parent</artifactId>
+  <name>ActFramework Starter Parent</name>
+  <description>Parent for ActFramework application</description>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
+    <maven-assemply-plugin.version>3.1.0</maven-assemply-plugin.version>
   </properties>
 
   <parent>
@@ -32,11 +33,30 @@
     <version>1.6.0-BETA2-SNAPSHOT</version>
   </parent>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.actframework</groupId>
-      <artifactId>act-ebean</artifactId>
-    </dependency>
-  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>${maven-assemply-plugin.version}</version>
+        <executions>
+          <execution>
+            <id>create-archive</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <appendAssemblyId>false</appendAssemblyId>
+              <descriptors>
+                <descriptor>act-starter-parent/src/main/assembly/pkg.xml</descriptor>
+              </descriptors>
+              <outputDirectory>${project.build.directory}/dist/</outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>

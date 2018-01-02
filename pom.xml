@@ -23,7 +23,7 @@
   <packaging>pom</packaging>
   <version>1.6.0-BETA2-SNAPSHOT</version>
 
-  <name>act-starters</name>
+  <name>ActFramework Starters</name>
   <description>ActFramework Starters</description>
   <inceptionYear>2018</inceptionYear>
 
@@ -38,8 +38,6 @@
     <main.basedir>${basedir}</main.basedir>
     <scm.url>git@github.com:actframework/act-starters.git</scm.url>
     <app.entry>ToBeOverwritten</app.entry>
-
-    <maven-assemply-plugin.version>3.1.0</maven-assemply-plugin.version>
 
     <act-aaa.version>1.3.0</act-aaa.version>
     <act-beetl.version>1.2.0</act-beetl.version>
@@ -68,6 +66,7 @@
   </issueManagement>
 
   <modules>
+    <module>act-starter-parent</module>
     <module>act-starter-ebean</module>
     <module>act-starter-ebean-aaa</module>
     <module>act-starter-ebean2</module>
@@ -80,27 +79,6 @@
 
   <build>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <version>${maven-assemply-plugin.version}</version>
-        <executions>
-          <execution>
-            <id>create-archive</id>
-            <phase>package</phase>
-            <goals>
-              <goal>single</goal>
-            </goals>
-            <configuration>
-              <appendAssemblyId>false</appendAssemblyId>
-              <descriptors>
-                <descriptor>src/main/assembly/pkg.xml</descriptor>
-              </descriptors>
-              <outputDirectory>${project.build.directory}/dist/</outputDirectory>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>buildnumber-maven-plugin</artifactId>
