@@ -1,5 +1,8 @@
 # Act Starters Change Log
 
+## 1.6.6.0 - 23/Jan/2018
+* update to act-1.6.6
+
 ## 1.6.5.0 - 23/Jan/2018
 * update to act-1.6.5
 * update act-beetl to 1.3.1
