@@ -29,7 +29,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>${revision}</version>
+    <version>1.7.1.0</version>
   </parent>
 
   <dependencies>
