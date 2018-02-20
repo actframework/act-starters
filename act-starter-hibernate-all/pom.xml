@@ -18,9 +18,9 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>act-starter-thymeleaf</artifactId>
-  <name>ActFramework Starter - Thymeleaf</name>
-  <description>Starter for ActFramework application use Thymeleaf as default template engine</description>
+  <artifactId>act-starter-hibernate-all</artifactId>
+  <name>ActFramework Starter - Hibernate and multiple plugins</name>
+  <description>Starter for ActFramework application on JDK8 use JPA/Hibernate (for SQL database access), AAA (for security), Storage (for blob storage to different platforms including local disk and AWS S3) and SocialLink (for social platform connection</description>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
@@ -35,7 +35,19 @@
   <dependencies>
     <dependency>
       <groupId>org.actframework</groupId>
-      <artifactId>act-thymeleaf</artifactId>
+      <artifactId>act-starter-hibernate-aaa</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.actframework</groupId>
+      <artifactId>act-starter-excel</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.actframework</groupId>
+      <artifactId>act-storage</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.actframework</groupId>
+      <artifactId>act-social-link</artifactId>
     </dependency>
   </dependencies>
 

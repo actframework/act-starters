@@ -28,14 +28,14 @@
     <maven-assemply-plugin.version>3.1.0</maven-assemply-plugin.version>
     <maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>
     <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
-    <act-starter-support.version>1.6.0</act-starter-support.version>
+    <act-starter-support.version>1.7.0</act-starter-support.version>
     <logback.version>1.2.3</logback.version>
   </properties>
 
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.6.6.1-SNAPSHOT</version>
+    <version>${revision}</version>
   </parent>
 
   <dependencies>

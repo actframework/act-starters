@@ -1,5 +1,8 @@
 # Act Starters Change Log
 
+## 1.7.0.0 - 20/Feb/2018
+* update to act-1.7.0
+
 ## 1.6.6.0 - 23/Jan/2018
 * update to act-1.6.6
 

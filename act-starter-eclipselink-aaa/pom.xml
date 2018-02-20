@@ -18,9 +18,9 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>act-starter-thymeleaf</artifactId>
-  <name>ActFramework Starter - Thymeleaf</name>
-  <description>Starter for ActFramework application use Thymeleaf as default template engine</description>
+  <artifactId>act-starter-eclipselink-aaa</artifactId>
+  <name>ActFramework Starter - EclipseLink and AAA</name>
+  <description>Starter for ActFramework application on JDK7+ use JPA/EclipseLink (for SQL database access) and AAA (for security)</description>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
@@ -35,7 +35,11 @@
   <dependencies>
     <dependency>
       <groupId>org.actframework</groupId>
-      <artifactId>act-thymeleaf</artifactId>
+      <artifactId>act-eclipselink</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.actframework</groupId>
+      <artifactId>act-aaa</artifactId>
     </dependency>
   </dependencies>
 
