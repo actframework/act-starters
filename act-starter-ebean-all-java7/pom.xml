@@ -18,26 +18,24 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>act-starter-ebean2-all</artifactId>
-  <name>ActFramework Starter - Ebean2 and multiple plugins</name>
+  <artifactId>act-starter-ebean-all-java7</artifactId>
+  <name>ActFramework Starter - Ebean (java-7) and multiple plugins</name>
   <description>Starter for ActFramework application on JDK8 use Ebean (for SQL database access), AAA (for security), Storage (for blob storage to different platforms including local disk and AWS S3) and SocialLink (for social platform connection</description>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.8.1.1-SNAPSHOT</version>
+    <version>${revision}</version>
   </parent>
 
   <dependencies>
     <dependency>
       <groupId>org.actframework</groupId>
-      <artifactId>act-starter-ebean2-aaa</artifactId>
+      <artifactId>act-starter-ebean-aaa-java7</artifactId>
     </dependency>
     <dependency>
       <groupId>org.actframework</groupId>

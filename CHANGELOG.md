@@ -1,5 +1,9 @@
 # Act Starters Change Log
 
+## 1.8.3.0 - 27/Mar/2018
+* update to act-1.8.3
+* [act-starter-parent] - docker support
+
 ## 1.8.1.0 - 11/Mar/2018
 * update to act-1.8.1
 

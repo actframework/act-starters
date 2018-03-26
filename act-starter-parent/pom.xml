@@ -27,15 +27,25 @@
     <main.basedir>${basedir}/..</main.basedir>
     <maven-assemply-plugin.version>3.1.0</maven-assemply-plugin.version>
     <maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>
+    <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
     <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
-    <act-starter-support.version>1.8.0</act-starter-support.version>
+    <docker-maven-plugin.version>0.24.0</docker-maven-plugin.version>
+    <act-starter-support.version>1.8.2</act-starter-support.version>
+    <vmargs.heap.init>256M</vmargs.heap.init>
+    <vmargs.heap.max>2G</vmargs.heap.max>
+    <vmargs.extended/>
+    <docker.repo>/placeholder</docker.repo>
+    <docker.profile>prod</docker.profile>
+    <docker.group>default</docker.group>
+    <docker.http.port>5460</docker.http.port>
+    <docker.cli.port>5461</docker.cli.port>
     <logback.version>1.2.3</logback.version>
   </properties>
 
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.8.1.1-SNAPSHOT</version>
+    <version>${revision}</version>
   </parent>
 
   <dependencies>
@@ -193,6 +203,152 @@
         </includes>
       </resource>
     </resources>
+    <testResources>
+      <testResource>
+        <directory>src/test/resources</directory>
+        <filtering>true</filtering>
+        <excludes>
+          <!-- pack -->
+          <exclude>**/*.7z</exclude>
+          <exclude>**/*.ace</exclude>
+          <exclude>**/*.apk</exclude>
+          <exclude>**/*.arc</exclude>
+          <exclude>**/*.arj</exclude>
+          <exclude>**/*.bz2</exclude>
+          <exclude>**/*.cab</exclude>
+          <exclude>**/*.deb</exclude>
+          <exclude>**/*.iso</exclude>
+          <exclude>**/*.jar</exclude>
+          <exclude>**/*.rar</exclude>
+          <exclude>**/*.tar</exclude>
+          <exclude>**/*.tgz</exclude>
+          <exclude>**/*.war</exclude>
+          <exclude>**/*.zip</exclude>
+          <!-- documents -->
+          <exclude>**/*.doc</exclude>
+          <exclude>**/*.docx</exclude>
+          <exclude>**/*.pdf</exclude>
+          <exclude>**/*.ppt</exclude>
+          <exclude>**/*.pptx</exclude>
+          <exclude>**/*.rtf</exclude>
+          <exclude>**/*.xls</exclude>
+          <exclude>**/*.xlsx</exclude>
+          <!-- fonts -->
+          <exclude>**/*.eot</exclude>
+          <exclude>**/*.fon</exclude>
+          <exclude>**/*.otf</exclude>
+          <exclude>**/*.ttf</exclude>
+          <exclude>**/*.woff</exclude>
+          <!-- media -->
+          <exclude>**/*.avi</exclude>
+          <exclude>**/*.aac</exclude>
+          <exclude>**/*.bmp</exclude>
+          <exclude>**/*.cur</exclude>
+          <exclude>**/*.flv</exclude>
+          <exclude>**/*.gif</exclude>
+          <exclude>**/*.ico</exclude>
+          <exclude>**/*.jpeg</exclude>
+          <exclude>**/*.jpg</exclude>
+          <exclude>**/*.mpe</exclude>
+          <exclude>**/*.mpeg</exclude>
+          <exclude>**/*.mpg</exclude>
+          <exclude>**/*.mov</exclude>
+          <exclude>**/*.mp3</exclude>
+          <exclude>**/*.pcx</exclude>
+          <exclude>**/*.png</exclude>
+          <exclude>**/*.psd</exclude>
+          <exclude>**/*.raw</exclude>
+          <exclude>**/*.tiff</exclude>
+          <exclude>**/*.wav</exclude>
+          <exclude>**/*.wma</exclude>
+          <exclude>**/*.wmv</exclude>
+          <!-- other binaries -->
+          <exclude>**/*.bin</exclude>
+          <exclude>**/*.cer</exclude>
+          <exclude>**/*.com</exclude>
+          <exclude>**/*.crt</exclude>
+          <exclude>**/*.dat</exclude>
+          <exclude>**/*.der</exclude>
+          <exclude>**/*.db</exclude>
+          <exclude>**/*.dbf</exclude>
+          <exclude>**/*.exe</exclude>
+          <exclude>**/*.p12</exclude>
+          <exclude>**/*.pfx</exclude>
+        </excludes>
+      </testResource>
+      <testResource>
+        <directory>src/test/resources</directory>
+        <filtering>false</filtering>
+        <includes>
+          <!-- pack -->
+          <include>**/*.7z</include>
+          <include>**/*.ace</include>
+          <include>**/*.apk</include>
+          <include>**/*.arc</include>
+          <include>**/*.arj</include>
+          <include>**/*.bz2</include>
+          <include>**/*.cab</include>
+          <include>**/*.deb</include>
+          <include>**/*.iso</include>
+          <include>**/*.jar</include>
+          <include>**/*.rar</include>
+          <include>**/*.tar</include>
+          <include>**/*.tgz</include>
+          <include>**/*.war</include>
+          <include>**/*.zip</include>
+          <!-- documents -->
+          <include>**/*.doc</include>
+          <include>**/*.docx</include>
+          <include>**/*.pdf</include>
+          <include>**/*.ppt</include>
+          <include>**/*.pptx</include>
+          <include>**/*.rtf</include>
+          <include>**/*.xls</include>
+          <include>**/*.xlsx</include>
+          <!-- fonts -->
+          <include>**/*.eot</include>
+          <include>**/*.fon</include>
+          <include>**/*.otf</include>
+          <include>**/*.ttf</include>
+          <include>**/*.woff</include>
+          <!-- media -->
+          <include>**/*.avi</include>
+          <include>**/*.aac</include>
+          <include>**/*.bmp</include>
+          <include>**/*.cur</include>
+          <include>**/*.flv</include>
+          <include>**/*.gif</include>
+          <include>**/*.ico</include>
+          <include>**/*.jpeg</include>
+          <include>**/*.jpg</include>
+          <include>**/*.mpe</include>
+          <include>**/*.mpeg</include>
+          <include>**/*.mpg</include>
+          <include>**/*.mov</include>
+          <include>**/*.mp3</include>
+          <include>**/*.pcx</include>
+          <include>**/*.png</include>
+          <include>**/*.psd</include>
+          <include>**/*.raw</include>
+          <include>**/*.tiff</include>
+          <include>**/*.wav</include>
+          <include>**/*.wma</include>
+          <include>**/*.wmv</include>
+          <!-- other binaries -->
+          <include>**/*.bin</include>
+          <include>**/*.cer</include>
+          <include>**/*.com</include>
+          <include>**/*.crt</include>
+          <include>**/*.dat</include>
+          <include>**/*.der</include>
+          <include>**/*.db</include>
+          <include>**/*.dbf</include>
+          <include>**/*.ine</include>
+          <include>**/*.p12</include>
+          <include>**/*.pfx</include>
+        </includes>
+      </testResource>
+    </testResources>
     <plugins>
       <plugin>
         <!-- disable license maven plugin as we want commercial project use this parent -->
@@ -212,7 +368,7 @@
         <executions>
           <execution>
             <id>unpack</id>
-            <phase>prepare-package</phase>
+            <phase>process-resources</phase>
             <goals>
               <goal>unpack</goal>
             </goals>
@@ -224,7 +380,7 @@
                   <version>${act-starter-support.version}</version>
                   <type>jar</type>
                   <overWrite>false</overWrite>
-                  <outputDirectory>${project.build.directory}/classes</outputDirectory>
+                  <outputDirectory>${project.build.directory}/stage</outputDirectory>
                   <includes>act_scripts/**</includes>
                 </artifactItem>
               </artifactItems>
@@ -260,7 +416,145 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-scripts</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.outputDirectory}/act_scripts</outputDirectory>
+              <resources>
+                <resource>
+                  <filtering>true</filtering>
+                  <directory>${project.build.directory}/stage/act_scripts</directory>
+                  <excludes>
+                    <exclude>Dockerfile</exclude>
+                  </excludes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
+
+  <profiles>
+    <profile>
+      <id>docker-def-dockerfile</id>
+      <activation>
+        <file>
+          <missing>${basedir}/src/main/resources/docker/Dockerfile</missing>
+        </file>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>${maven-resources-plugin.version}</version>
+            <executions>
+              <execution>
+                <id>copy-dockerfile</id>
+                <phase>compile</phase>
+                <goals>
+                  <goal>copy-resources</goal>
+                </goals>
+                <configuration>
+                  <outputDirectory>${project.build.directory}/dist</outputDirectory>
+                  <resources>
+                    <resource>
+                      <filtering>true</filtering>
+                      <directory>${project.build.directory}/stage/act_scripts</directory>
+                      <includes>
+                        <include>Dockerfile</include>
+                      </includes>
+                    </resource>
+                  </resources>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>docker-app-dockerfile</id>
+      <activation>
+        <file>
+          <exists>${basedir}/src/main/resources/docker/Dockerfile</exists>
+        </file>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>${maven-resources-plugin.version}</version>
+            <executions>
+              <execution>
+                <id>copy-dockerfile</id>
+                <phase>compile</phase>
+                <goals>
+                  <goal>copy-resources</goal>
+                </goals>
+                <configuration>
+                  <outputDirectory>${project.build.directory}/dist</outputDirectory>
+                  <resources>
+                    <resource>
+                      <filtering>true</filtering>
+                      <directory>${project.build.directory}/docker</directory>
+                    </resource>
+                  </resources>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>docker</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>io.fabric8</groupId>
+            <artifactId>docker-maven-plugin</artifactId>
+            <version>${docker-maven-plugin.version}</version>
+            <configuration>
+              <images>
+                <image>
+                  <name>${docker.repo}:${project.version}-b${buildNumber}</name>
+                  <build>
+                    <dockerFileDir>${project.build.directory}/dist</dockerFileDir>
+                  </build>
+                </image>
+              </images>
+            </configuration>
+            <executions>
+              <execution>
+                <id>build</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>build</goal>
+                </goals>
+              </execution>
+              <execution>
+                <id>push</id>
+                <phase>install</phase>
+                <goals>
+                  <goal>push</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 
 </project>

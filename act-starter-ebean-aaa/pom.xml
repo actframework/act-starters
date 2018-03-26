@@ -20,16 +20,18 @@
 
   <artifactId>act-starter-ebean-aaa</artifactId>
   <name>ActFramework Starter - Ebean and AAA</name>
-  <description>Starter for ActFramework application on JDK7+ use Ebean (for SQL database access) and AAA (for security)</description>
+  <description>Starter for ActFramework application on JDK8 use Ebean (for SQL database access) and AAA (for security)</description>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.8.1.1-SNAPSHOT</version>
+    <version>${revision}</version>
   </parent>
 
   <dependencies>
