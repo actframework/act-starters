@@ -45,7 +45,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.8.4.0-SNAPSHOT</version>
+    <version>${revision}</version>
   </parent>
 
   <dependencies>
