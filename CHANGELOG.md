@@ -1,5 +1,9 @@
 # Act Starters Change Log
 
+## 1.8.4.0 - 28/Mar/2018
+* update to act-1.8.4
+* Downgrade h2 version #3
+
 ## 1.8.3.0 - 27/Mar/2018
 * update to act-1.8.3
 * [act-starter-parent] - docker support
