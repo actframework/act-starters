@@ -1,5 +1,9 @@
 # Act Starters Change Log
 
+## 1.8.7.0 - 06/Apr/2018
+* update to act-1.8.7
+* update HikariCP to 2.7.9
+
 ## 1.8.6.0 - 04/Apr/2018
 * update to act-1.8.6
 
