@@ -31,7 +31,7 @@
     <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
     <docker-maven-plugin.version>0.24.0</docker-maven-plugin.version>
     <act-maven-plugin.version>1.8.5.0</act-maven-plugin.version>
-    <act-starter-support.version>1.8.2</act-starter-support.version>
+    <act-starter-support.version>1.8.6</act-starter-support.version>
     <vmargs.heap.init>256M</vmargs.heap.init>
     <vmargs.heap.max>2G</vmargs.heap.max>
     <vmargs.extended />
@@ -439,6 +439,7 @@
                   <directory>${project.build.directory}/stage/act_scripts</directory>
                   <excludes>
                     <exclude>Dockerfile</exclude>
+                    <exclude>Dockerimage</exclude>
                   </excludes>
                 </resource>
               </resources>
@@ -513,7 +514,7 @@
                   <resources>
                     <resource>
                       <filtering>true</filtering>
-                      <directory>${project.build.directory}/docker</directory>
+                      <directory>${basedir}/src/main/resources/docker</directory>
                     </resource>
                   </resources>
                 </configuration>
@@ -527,6 +528,32 @@
       <id>docker</id>
       <build>
         <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>${maven-resources-plugin.version}</version>
+            <executions>
+              <execution>
+                <id>copy-dockerimage</id>
+                <phase>compile</phase>
+                <goals>
+                  <goal>copy-resources</goal>
+                </goals>
+                <configuration>
+                  <outputDirectory>${project.build.directory}/dist</outputDirectory>
+                  <resources>
+                    <resource>
+                      <filtering>true</filtering>
+                      <directory>${project.build.directory}/stage/act_scripts</directory>
+                      <includes>
+                        <include>Dockerimage</include>
+                      </includes>
+                    </resource>
+                  </resources>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
           <plugin>
             <groupId>io.fabric8</groupId>
             <artifactId>docker-maven-plugin</artifactId>

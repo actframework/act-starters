@@ -33,7 +33,7 @@
   </parent>
 
   <properties>
-    <revision>1.8.7.0</revision>
+    <revision>1.8.7.1-SNAPSHOT</revision>
     <java.version>1.7</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -223,87 +223,87 @@
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-parent</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-beetl</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-aaa-java7</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-all-java7</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-aaa</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-all</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-excel</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-eclipselink-aaa</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-eclipselink-all</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-freemarker</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-hibernate-aaa</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-hibernate-all</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-morphia-aaa</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-morphia-all</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-mustache</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-thymeleaf</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-velocity</artifactId>
-        <version>${revision}</version>
+        <version>1.8.7.1-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
