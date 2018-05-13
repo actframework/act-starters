@@ -1,5 +1,9 @@
 # Act Starters Change Log
 
+## 1.8.8.0 - 13/May/2018
+* update to act-1.8.8-RC4
+* update maven-plugin to 1.8.8.0
+
 ## 1.8.7.0 - 06/Apr/2018
 * update to act-1.8.7
 * update HikariCP to 2.7.9
