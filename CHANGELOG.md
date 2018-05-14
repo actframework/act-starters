@@ -1,5 +1,8 @@
 # Act Starters Change Log
 
+## 1.8.8.1 - 14/May/2018
+* update act-ebean to 1.6.4
+
 ## 1.8.8.0 - 13/May/2018
 * update to act-1.8.8-RC4
 * update maven-plugin to 1.8.8.0
