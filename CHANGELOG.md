@@ -1,5 +1,9 @@
 # Act Starters Change Log
 
+## 1.8.8.2 - 20/May/2018
+* update to act-1.8.8-RC6
+* add act-e2e into starter-parent dependency
+
 ## 1.8.8.1 - 14/May/2018
 * update act-ebean to 1.6.4
 
