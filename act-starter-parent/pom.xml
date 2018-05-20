@@ -55,6 +55,10 @@
       <artifactId>logback-classic</artifactId>
       <version>${logback.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.actframework</groupId>
+      <artifactId>act-e2e</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
