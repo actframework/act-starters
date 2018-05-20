@@ -1,5 +1,11 @@
 # Act Starters Change Log
 
+## 1.8.8.3
+* update to act-1.8.8-RC7
+* update act-eclipselink to 1.3.0
+* update act-hibernate to 1.3.0
+* add act-jpa-common and act-sql-common into dependency management
+
 ## 1.8.8.2 - 20/May/2018
 * update to act-1.8.8-RC6
 * add act-e2e into starter-parent dependency
