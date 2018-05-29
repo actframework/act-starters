@@ -29,7 +29,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>parent</artifactId>
-    <version>1.8.8-RC7</version>
+    <version>1.8.8-RC8</version>
   </parent>
 
   <properties>
@@ -42,14 +42,14 @@
 
     <act-aaa.version>1.4.3</act-aaa.version>
     <act-beetl.version>1.4.2</act-beetl.version>
-    <act-beetlsql.version>1.4.6</act-beetlsql.version>
-    <act-e2e.version>0.0.4</act-e2e.version>
-    <act-ebean-java7.version>1.6.2</act-ebean-java7.version>
-    <act-ebean.version>1.6.5</act-ebean.version>
-    <act-eclipselink.version>1.3.0</act-eclipselink.version>
+    <act-beetlsql.version>1.5.0</act-beetlsql.version>
+    <act-e2e.version>0.0.6</act-e2e.version>
+    <act-ebean-java7.version>1.7.0</act-ebean-java7.version>
+    <act-ebean.version>1.7.0</act-ebean.version>
+    <act-eclipselink.version>1.4.0</act-eclipselink.version>
     <act-excel.version>1.4.4</act-excel.version>
     <act-freemarker.version>1.3.3</act-freemarker.version>
-    <act-hibernate.version>1.3.0</act-hibernate.version>
+    <act-hibernate.version>1.4.0</act-hibernate.version>
     <act-jax-rs.version>1.0.3</act-jax-rs.version>
     <act-morphia.version>1.5.1</act-morphia.version>
     <act-mustache.version>1.4.3</act-mustache.version>
@@ -57,11 +57,9 @@
     <act-storage.version>0.13.3</act-storage.version>
     <act-thymeleaf.version>1.3.3</act-thymeleaf.version>
     <act-velocity.version>1.3.3</act-velocity.version>
-    <act-sql-common.version>1.3.4</act-sql-common.version>
-    <act-jpa-common.version>1.3.0</act-jpa-common.version>
+    <act-sql-common.version>1.4.0</act-sql-common.version>
+    <act-jpa-common.version>1.4.0</act-jpa-common.version>
 
-    <!-- donot update h2 to 1.4.197, it does not run on java7 -->
-    <h2.version>1.4.196</h2.version>
     <HikariCP-java7.version>2.4.13</HikariCP-java7.version>
     <HikariCP.version>2.7.9</HikariCP.version>
     <druid.version>1.1.9</druid.version>
@@ -122,11 +120,6 @@
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>com.h2database</groupId>
-        <artifactId>h2</artifactId>
-        <version>${h2.version}</version>
-      </dependency>
       <dependency>
         <groupId>com.zaxxer</groupId>
         <artifactId>HikariCP-java7</artifactId>

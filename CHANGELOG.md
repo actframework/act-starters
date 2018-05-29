@@ -1,5 +1,16 @@
 # Act Starters Change Log
 
+## 1.8.8.4 - 29/May/2018
+* act to 1.8.8-RC8
+* act-sql-common to 1.4.0
+* act-jpa-common to 1.4.0
+* act-eclipselink to 1.4.0
+* act-hibernate to 1.4.0
+* act-ebean to 1.7.0
+* act-ebean-java7 to 1.7.0
+* act-e2e to 0.0.6
+* act-maven-plugin to 1.8.8.2
+
 ## 1.8.8.3
 * update to act-1.8.8-RC7
 * update act-eclipselink to 1.3.0
