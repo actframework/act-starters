@@ -1,5 +1,27 @@
 # Act Starters Change Log
 
+## 1.8.8.5 - 19/Jun/2018
+* act-1.8.8-RC10
+* act-aaa-1.5.0
+* act-beetl-1.4.4
+* act-beetlsql-1.5.2
+* act-e2e-1.0.0
+* act-ebean-java7-1.7.2
+* act-ebean-1.7.2
+* act-eclipselink-1.5.1
+* act-excel-1.4.5
+* act-freemarker-1.3.5
+* act-hibernate-1.5.1
+* act-jax-rs-1.0.4
+* act-jpa-common-1.5.1
+* act-morphia-1.6.0
+* act-mustache-1.4.4
+* act-social-0.12.4
+* act-sql-common-1.4.2
+* act-storage-0.13.4
+* act-thymeleaf-1.3.4
+* act-velocity-1.3.4
+
 ## 1.8.8.4 - 29/May/2018
 * act to 1.8.8-RC8
 * act-sql-common to 1.4.0
