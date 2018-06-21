@@ -1,5 +1,10 @@
 # Act Starters Change Log
 
+## 1.8.8.6 - 21/Jun/2018
+* act-1.8.8-RC11
+* act-aaa-1.5.1
+* act-morphia-1.6.1
+
 ## 1.8.8.5 - 19/Jun/2018
 * act-1.8.8-RC10
 * act-aaa-1.5.0
