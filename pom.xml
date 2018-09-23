@@ -29,7 +29,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>parent</artifactId>
-    <version>1.8.8-RC11</version>
+    <version>1.8.8-RC12-SNAPSHOT</version>
   </parent>
 
   <properties>
@@ -40,25 +40,24 @@
     <scm.url>git@github.com:actframework/act-starters.git</scm.url>
     <app.entry>ToBeOverwritten</app.entry>
 
-    <act-aaa.version>1.5.1</act-aaa.version>
+    <act-aaa.version>1.5.2-SNAPSHOT</act-aaa.version>
     <act-beetl.version>1.4.4</act-beetl.version>
     <act-beetlsql.version>1.5.2</act-beetlsql.version>
-    <act-e2e.version>1.0.0</act-e2e.version>
     <act-ebean-java7.version>1.7.2</act-ebean-java7.version>
     <act-ebean.version>1.7.2</act-ebean.version>
-    <act-eclipselink.version>1.5.1</act-eclipselink.version>
-    <act-excel.version>1.4.5</act-excel.version>
+    <act-eclipselink.version>1.5.2-SNAPSHOT</act-eclipselink.version>
+    <act-excel.version>1.5.0-SNAPSHOT</act-excel.version>
     <act-freemarker.version>1.3.5</act-freemarker.version>
     <act-hibernate.version>1.5.1</act-hibernate.version>
     <act-jax-rs.version>1.0.4</act-jax-rs.version>
-    <act-morphia.version>1.6.1</act-morphia.version>
+    <act-morphia.version>1.6.2-SNAPSHOT</act-morphia.version>
     <act-mustache.version>1.4.4</act-mustache.version>
-    <act-social-link.version>0.12.4</act-social-link.version>
+    <act-social-link.version>0.12.5-SNAPSHOT</act-social-link.version>
     <act-storage.version>0.13.4</act-storage.version>
     <act-thymeleaf.version>1.3.4</act-thymeleaf.version>
     <act-velocity.version>1.3.4</act-velocity.version>
     <act-sql-common.version>1.4.2</act-sql-common.version>
-    <act-jpa-common.version>1.5.1</act-jpa-common.version>
+    <act-jpa-common.version>1.5.2-SNAPSHOT</act-jpa-common.version>
 
     <HikariCP-java7.version>2.4.13</HikariCP-java7.version>
     <HikariCP.version>2.7.9</HikariCP.version>
@@ -149,11 +148,6 @@
         <groupId>org.actframework</groupId>
         <artifactId>act-beetlsql</artifactId>
         <version>${act-beetlsql.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.actframework</groupId>
-        <artifactId>act-e2e</artifactId>
-        <version>${act-e2e.version}</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>

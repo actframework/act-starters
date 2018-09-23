@@ -1,5 +1,9 @@
 # Act Starters Change Log
 
+## 1.8.8.7
+* act-1.8.8-RC12
+* remove act-e2e as it is merged into act core framework
+
 ## 1.8.8.6 - 21/Jun/2018
 * act-1.8.8-RC11
 * act-aaa-1.5.1

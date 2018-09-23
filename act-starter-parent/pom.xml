@@ -30,8 +30,8 @@
     <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
     <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
     <docker-maven-plugin.version>0.24.0</docker-maven-plugin.version>
-    <act-maven-plugin.version>1.8.8.3</act-maven-plugin.version>
-    <act-starter-support.version>1.8.6</act-starter-support.version>
+    <act-maven-plugin.version>1.8.8.4-SNAPSHOT</act-maven-plugin.version>
+    <act-starter-support.version>1.8.7-SNAPSHOT</act-starter-support.version>
     <vmargs.heap.init>256M</vmargs.heap.init>
     <vmargs.heap.max>2G</vmargs.heap.max>
     <vmargs.extended />
@@ -54,10 +54,6 @@
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
       <version>${logback.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.actframework</groupId>
-      <artifactId>act-e2e</artifactId>
     </dependency>
   </dependencies>
 
