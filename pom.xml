@@ -56,7 +56,7 @@
     <act-storage.version>0.13.4</act-storage.version>
     <act-thymeleaf.version>1.3.4</act-thymeleaf.version>
     <act-velocity.version>1.3.4</act-velocity.version>
-    <act-sql-common.version>1.4.2</act-sql-common.version>
+    <act-sql-common.version>1.4.3-SNAPSHOT</act-sql-common.version>
     <act-jpa-common.version>1.5.2-SNAPSHOT</act-jpa-common.version>
 
     <HikariCP-java7.version>2.4.13</HikariCP-java7.version>
