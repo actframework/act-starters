@@ -1,7 +1,8 @@
 # Act Starters Change Log
 
-## 1.8.8.7
-* act-1.8.8-RC12
+## 1.8.8.8 - 30/Oct/2018
+* add exe and access file extensions to act-starter-parent resource list
+* act-1.8.8
 * remove act-e2e as it is merged into act core framework
 
 ## 1.8.8.6 - 21/Jun/2018

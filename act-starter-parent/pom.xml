@@ -30,8 +30,8 @@
     <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
     <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
     <docker-maven-plugin.version>0.24.0</docker-maven-plugin.version>
-    <act-maven-plugin.version>1.8.8.4-SNAPSHOT</act-maven-plugin.version>
-    <act-starter-support.version>1.8.7-SNAPSHOT</act-starter-support.version>
+    <act-maven-plugin.version>1.8.8.8</act-maven-plugin.version>
+    <act-starter-support.version>1.8.8</act-starter-support.version>
     <vmargs.heap.init>256M</vmargs.heap.init>
     <vmargs.heap.max>2G</vmargs.heap.max>
     <vmargs.extended />
@@ -46,7 +46,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.8.8.7-SNAPSHOT</version>
+    <version>1.8.8.8-SNAPSHOT</version>
   </parent>
 
   <dependencies>
@@ -80,6 +80,10 @@
           <exclude>**/*.war</exclude>
           <exclude>**/*.zip</exclude>
           <!-- documents -->
+          <exclude>**/*.accdb</exclude>
+          <exclude>**/*.accde</exclude>
+          <exclude>**/*.accdt</exclude>
+          <exclude>**/*.accdr</exclude>
           <exclude>**/*.doc</exclude>
           <exclude>**/*.docx</exclude>
           <exclude>**/*.pdf</exclude>
@@ -152,6 +156,10 @@
           <include>**/*.war</include>
           <include>**/*.zip</include>
           <!-- documents -->
+          <include>**/*.accdb</include>
+          <include>**/*.accde</include>
+          <include>**/*.accdt</include>
+          <include>**/*.accdr</include>
           <include>**/*.doc</include>
           <include>**/*.docx</include>
           <include>**/*.pdf</include>
@@ -198,6 +206,7 @@
           <include>**/*.der</include>
           <include>**/*.db</include>
           <include>**/*.dbf</include>
+          <include>**/*.exe</include>
           <include>**/*.ine</include>
           <include>**/*.p12</include>
           <include>**/*.pfx</include>
