@@ -1,5 +1,8 @@
 # Act Starters Change Log
 
+## 1.8.8.9 - 04/Nov/2018
+* act-1.8.9
+
 ## 1.8.8.8 - 30/Oct/2018
 * add exe and access file extensions to act-starter-parent resource list
 * act-1.8.8
