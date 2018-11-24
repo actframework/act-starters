@@ -1,5 +1,8 @@
 # Act Starters Change Log
 
+## 1.8.13.0 - 25/Nov/2018
+* act-1.8.13
+
 ## 1.8.12.0 - 20/Nov/2018
 * act-1.8.12
 
