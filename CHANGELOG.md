@@ -1,5 +1,8 @@
 # Act Starters Change Log
 
+## 1.8.16.1 - 09/Dec/2018
+* update jpa-common to 1.5.4
+
 ## 1.8.16.0 - 09/Dec/2018
 * act-1.8.16
 
