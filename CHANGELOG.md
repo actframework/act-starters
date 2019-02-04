@@ -1,5 +1,15 @@
 # Act Starters Change Log
 
+## 1.8.18.0 - 04/Feb/2018
+* update to act-1.8.18
+* update aaa to 1.5.4
+* update beetl to 1.4.7
+* update beetlsql to 1.5.7
+* update ebean to 1.7.6
+* update eclipselink to 1.5.7
+* update hibernate to 1.5.6
+* update jpa-common to 1.5.6
+
 ## 1.8.17.1 - 24/Dec/2018
 * update jpa-common to 1.5.5
 
