@@ -20,7 +20,7 @@
 
   <artifactId>act-starters</artifactId>
   <packaging>pom</packaging>
-  <version>1.8.19.0</version>
+  <version>1.8.19.1-SNAPSHOT</version>
 
   <name>ActFramework Starters</name>
   <description>ActFramework Starters</description>
@@ -232,87 +232,87 @@
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-parent</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-beetl</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-aaa-java7</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-all-java7</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-aaa</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-all</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-excel</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-eclipselink-aaa</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-eclipselink-all</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-freemarker</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-hibernate-aaa</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-hibernate-all</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-morphia-aaa</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-morphia-all</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-mustache</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-thymeleaf</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-velocity</artifactId>
-        <version>1.8.19.0</version>
+        <version>1.8.19.1-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
