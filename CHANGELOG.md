@@ -1,5 +1,10 @@
 # Act Starters Change Log
 
+## 1.8.21.0 - 26/Apr/2019
+* update to act-1.8.21
+* update act-beetl to 1.5.0
+* update act-excel to 1.6.1 
+
 ## 1.8.20.1 - 21/Apr/2019
 * oops, act version not really updated, let's fix it in this version
 
