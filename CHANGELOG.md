@@ -1,5 +1,11 @@
 # Act Starters Change Log
 
+## 1.8.22.0 - 21/May/2019
+* update to act-1.8.22
+* update act-beetl to 1.5.1
+* update act-beetlsql to 1.5.9
+* update act-social to 0.12.6
+
 ## 1.8.21.0 - 26/Apr/2019
 * update to act-1.8.21
 * update act-beetl to 1.5.0
