@@ -1,8 +1,8 @@
 # Act Starters Change Log
 
-## 1.8.23.1 - 17/Jun/2019
+## 1.8.23.2 - 17/Jun/2019
 
-* update act-morphia to 1.7.1
+* update act-morphia to 1.7.2
 
 ## 1.8.23.0 - 17/Jun/2019
 * update to act-1.8.23
