@@ -1,5 +1,9 @@
 # Act Starters Change Log
 
+## 1.8.23.1 - 17/Jun/2019
+
+* update act-morphia to 1.7.1
+
 ## 1.8.23.0 - 17/Jun/2019
 * update to act-1.8.23
 * update act-sql-common to 1.4.6
