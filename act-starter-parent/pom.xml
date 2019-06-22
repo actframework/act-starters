@@ -29,13 +29,13 @@
     <maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>
     <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
     <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
-    <docker-maven-plugin.version>0.24.0</docker-maven-plugin.version>
+    <docker-maven-plugin.version>0.30.0</docker-maven-plugin.version>
     <act-maven-plugin.version>1.8.12.0</act-maven-plugin.version>
     <act-starter-support.version>1.8.18</act-starter-support.version>
     <vmargs.heap.init>256M</vmargs.heap.init>
     <vmargs.heap.max>2G</vmargs.heap.max>
     <vmargs.extended />
-    <docker.repo>/placeholder</docker.repo>
+    <docker.repo>${project.groupId}/${project.artifactId}</docker.repo>
     <docker.profile>prod</docker.profile>
     <docker.group>default</docker.group>
     <docker.http.port>5460</docker.http.port>
@@ -46,7 +46,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.8.23.3-SNAPSHOT</version>
+    <version>1.8.24.0-SNAPSHOT</version>
   </parent>
 
   <dependencies>

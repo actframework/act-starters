@@ -1,5 +1,12 @@
 # Act Starters Change Log
 
+## 1.8.24.0 - 23/Jun/2019
+
+* update to act-1.8.24
+* update act-beetl to 1.5.3 (update beetl to 3.0.5.RELEASE)
+* update act-beetlsql to 1.5.11 (update beetlsql to 2.12.5.RELEASE)
+* minor update to act-starter-parent so docker package works even docker.repo property not set in app
+
 ## 1.8.23.2 - 17/Jun/2019
 
 * update act-morphia to 1.7.2
