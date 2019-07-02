@@ -1,5 +1,19 @@
 # Act Starters Change Log
 
+## 1.8.25.0 - 03/Jul/2019
+
+* update to act-1.8.25
+* act-sql-common -> 1.5.0
+* act-jpa-common -> 1.6.0
+* act-ebean -> 1.7.9
+* act-ebean-java7 -> 1.7.8
+* act-hibernate -> 1.6.0
+* act-eclipselink -> 1.6.0
+* act-beetlsql -> 1.6.0
+    - beetlsql -> 2.12.7.RELEASE
+* act-beetl -> 1.5.4
+    - beetl -> 3.0.7.RELEASE
+
 ## 1.8.24.0 - 23/Jun/2019
 
 * update to act-1.8.24
