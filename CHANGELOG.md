@@ -1,5 +1,15 @@
 # Act Starters Change Log
 
+## 1.8.26.0 - 21/Jul/2019
+* update to act-1.8.26
+* act-aaa -> 1.6.0
+* act-beetl -> 1.6.0
+    - beetl -> 3.0.10.RELEASE
+* act-beetlsql -> 1.7.0
+    - beetlsql -> 2.12.9.RELEASE
+* act-excel -> 1.7.0
+* act-storage - 0.14.0
+
 ## 1.8.25.0 - 03/Jul/2019
 
 * update to act-1.8.25
