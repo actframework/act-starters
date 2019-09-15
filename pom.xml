@@ -20,7 +20,7 @@
 
   <artifactId>act-starters</artifactId>
   <packaging>pom</packaging>
-  <version>1.8.26.1-SNAPSHOT</version>
+  <version>1.8.27.0-SNAPSHOT</version>
 
   <name>ActFramework Starters</name>
   <description>ActFramework Starters</description>
@@ -29,7 +29,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>parent</artifactId>
-    <version>1.8.26</version>
+    <version>1.8.27</version>
   </parent>
 
   <properties>
@@ -40,14 +40,14 @@
     <scm.url>git@github.com:actframework/act-starters.git</scm.url>
     <app.entry>to.be.Overwritten</app.entry>
 
-    <act-aaa.version>1.6.0</act-aaa.version>
-    <act-beetl.version>1.6.0</act-beetl.version>
-    <act-beetlsql.version>1.7.0</act-beetlsql.version>
+    <act-aaa.version>1.6.1</act-aaa.version>
+    <act-beetl.version>1.6.1</act-beetl.version>
+    <act-beetlsql.version>1.7.1</act-beetlsql.version>
     <act-ebean-java7.version>1.7.8</act-ebean-java7.version>
     <act-ebean.version>1.7.9</act-ebean.version>
     <act-eclipselink.version>1.6.0</act-eclipselink.version>
-    <act-excel.version>1.7.0</act-excel.version>
-    <act-freemarker.version>1.3.6</act-freemarker.version>
+    <act-excel.version>1.7.1</act-excel.version>
+    <act-freemarker.version>1.3.7</act-freemarker.version>
     <act-hibernate.version>1.6.0</act-hibernate.version>
     <act-jax-rs.version>1.0.5</act-jax-rs.version>
     <act-morphia.version>1.7.2</act-morphia.version>
@@ -55,14 +55,14 @@
     <act-social-link.version>0.12.6</act-social-link.version>
     <act-storage.version>0.14.0</act-storage.version>
     <act-thymeleaf.version>1.3.6</act-thymeleaf.version>
-    <act-velocity.version>1.3.6</act-velocity.version>
+    <act-velocity.version>1.3.7</act-velocity.version>
     <act-sql-common.version>1.5.0</act-sql-common.version>
     <act-jpa-common.version>1.6.0</act-jpa-common.version>
 
     <HikariCP-java7.version>2.4.13</HikariCP-java7.version>
     <HikariCP.version>3.3.1</HikariCP.version>
-    <druid.version>1.1.17</druid.version>
-    <druid-apache.version>0.14.2-incubating</druid-apache.version>
+    <druid.version>1.1.20</druid.version>
+    <druid-apache.version>0.15.1-incubating</druid-apache.version>
   </properties>
 
   <scm>
@@ -238,87 +238,87 @@
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-parent</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-beetl</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-aaa-java7</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-all-java7</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-aaa</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-all</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-excel</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-eclipselink-aaa</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-eclipselink-all</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-freemarker</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-hibernate-aaa</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-hibernate-all</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-morphia-aaa</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-morphia-all</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-mustache</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-thymeleaf</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-velocity</artifactId>
-        <version>1.8.26.1-SNAPSHOT</version>
+        <version>1.8.27.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

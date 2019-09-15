@@ -1,5 +1,14 @@
 # Act Starters Change Log
 
+## 1.8.27.0 - 15/Jul/2019
+* update to act-1.8.27
+* act-aaa -> 1.6.1
+* act-beetl -> 1.6.1
+* act-beetlsql -> 1.7.1
+* act-excel -> 1.7.1
+* act-freemarker -> 1.3.7
+* act-velocity -> 1.3.7
+
 ## 1.8.26.0 - 21/Jul/2019
 * update to act-1.8.26
 * act-aaa -> 1.6.0
