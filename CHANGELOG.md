@@ -1,5 +1,9 @@
 # Act Starters Change Log
 
+## 1.8.29.0
+* docker profile: it needs to clean existing tgz files in the dist dir when packaging #5
+* update act to 1.8.29
+
 ## 1.8.28.1 - 30/Sep/2019
 * act-sql-common -> 1.5.1
 * act-jpa-common -> 1.6.1

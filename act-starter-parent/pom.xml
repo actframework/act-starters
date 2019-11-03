@@ -46,7 +46,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starters</artifactId>
-    <version>1.8.28.2-SNAPSHOT</version>
+    <version>1.8.29.0-SNAPSHOT</version>
   </parent>
 
   <dependencies>
@@ -544,6 +544,31 @@
       <id>docker</id>
       <build>
         <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-clean-plugin</artifactId>
+            <version>3.1.0</version>
+            <executions>
+              <execution>
+                <id>clean-dist</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>clean</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <filesets>
+                <fileset>
+                  <directory>${project.build.directory}/dist</directory>
+                  <includes>
+                    <include>**/*.tgz</include>
+                  </includes>
+                  <followSymlinks>false</followSymlinks>
+                </fileset>
+              </filesets>
+            </configuration>
+          </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-resources-plugin</artifactId>
