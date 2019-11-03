@@ -1,6 +1,7 @@
 # Act Starters Change Log
 
 ## 1.8.29.0 - 03/Nov/2019
+* add act-starter-excel-java7 module
 * docker profile: it needs to clean existing tgz files in the dist dir when packaging #5
 * update act to 1.8.29
 * catch up act plugin updates
