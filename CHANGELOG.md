@@ -1,5 +1,9 @@
 # Act Starters Change Log
 
+## 1.8.30.0 - 23/Nov/2019
+* update act to 1.8.30
+* update act-morphia to 1.8.1
+
 ## 1.8.29.0 - 03/Nov/2019
 * add act-starter-excel-java7 module
 * docker profile: it needs to clean existing tgz files in the dist dir when packaging #5
