@@ -1,5 +1,8 @@
 # Act Starters Change Log
 
+## 1.8.31.0 - 02/Jan/2019
+* update act to 1.8.31
+
 ## 1.8.30.1 - 24/Nov/2019
 * update act to 1.8.30a
 
