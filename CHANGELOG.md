@@ -1,6 +1,17 @@
 # Act Starters Change Log
 
-## 1.8.31.0 - 02/Jan/2019
+## 1.8.32.0 - 04/Mar/2020
+* update act to 1.8.32
+* act-aaa -> 1.8.0
+* act-beetl -> 1.7.2
+* act-beetlsql -> 1.8.2
+* act-excel -> 1.9.1
+* act-excel-java7 -> 1.9.1
+* act-morphia -> 1.9.0
+* act-storage -> 0.16.0
+* act-velocity -> 1.4.1
+
+## 1.8.31.0 - 02/Jan/2020
 * update act to 1.8.31
 
 ## 1.8.30.1 - 24/Nov/2019
