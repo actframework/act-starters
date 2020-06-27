@@ -1,5 +1,16 @@
 # Act Starters Change Log
 
+## 1.8.33.0 - 27/Jun/2020
+* Drop JDK 7 support
+* Add JDK 9+ support (runtime only)
+* act -> 1.8.33b
+* act-aaa -> 1.9.1
+* act-beetl -> 1.8.0
+* act-excel -> 1.9.2
+* act-freemarker -> 1.4.1
+* act-morphia -> 1.10.0
+* act-social-link -> 0.14.0
+
 ## 1.8.32.0 - 04/Mar/2020
 * update act to 1.8.32
 * act-aaa -> 1.8.0

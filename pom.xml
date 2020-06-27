@@ -20,7 +20,7 @@
 
   <artifactId>act-starters</artifactId>
   <packaging>pom</packaging>
-  <version>1.8.32.1-SNAPSHOT</version>
+  <version>1.8.33.0-SNAPSHOT</version>
 
   <name>ActFramework Starters</name>
   <description>ActFramework Starters</description>
@@ -29,39 +29,36 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>parent</artifactId>
-    <version>1.8.32</version>
+    <version>1.8.33b</version>
   </parent>
 
   <properties>
-    <java.version>1.7</java.version>
+    <java.version>1.8</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <main.basedir>${basedir}</main.basedir>
     <scm.url>git@github.com:actframework/act-starters.git</scm.url>
     <app.entry>to.be.Overwritten</app.entry>
 
-    <act-aaa.version>1.8.0</act-aaa.version>
-    <act-beetl.version>1.7.2</act-beetl.version>
+    <act-aaa.version>1.9.1</act-aaa.version>
+    <act-beetl.version>1.8.0</act-beetl.version>
     <act-beetlsql.version>1.8.2</act-beetlsql.version>
-    <act-ebean-java7.version>1.8.0</act-ebean-java7.version>
     <act-ebean.version>1.8.0</act-ebean.version>
     <act-eclipselink.version>1.7.0</act-eclipselink.version>
-    <act-excel.version>1.9.1</act-excel.version>
-    <act-excel-java7.version>1.9.1</act-excel-java7.version>
-    <act-freemarker.version>1.4.0</act-freemarker.version>
+    <act-excel.version>1.9.2</act-excel.version>
+    <act-freemarker.version>1.4.1</act-freemarker.version>
     <act-hibernate.version>1.7.0</act-hibernate.version>
     <act-jax-rs.version>1.1.0</act-jax-rs.version>
-    <act-morphia.version>1.9.0</act-morphia.version>
+    <act-morphia.version>1.10.0</act-morphia.version>
     <act-mustache.version>1.5.0</act-mustache.version>
-    <act-social-link.version>0.13.0</act-social-link.version>
+    <act-social-link.version>0.14.0</act-social-link.version>
     <act-storage.version>0.16.0</act-storage.version>
     <act-thymeleaf.version>1.4.0</act-thymeleaf.version>
     <act-velocity.version>1.4.1</act-velocity.version>
 
-    <HikariCP-java7.version>2.4.13</HikariCP-java7.version>
-    <HikariCP.version>3.4.1</HikariCP.version>
-    <druid.version>1.1.20</druid.version>
-    <druid-apache.version>0.16.0-incubating</druid-apache.version>
+    <HikariCP.version>3.4.5</HikariCP.version>
+    <druid.version>1.1.22</druid.version>
+    <druid-apache.version>0.18.1</druid-apache.version>
   </properties>
 
   <scm>
@@ -78,14 +75,11 @@
   <modules>
     <module>act-starter-parent</module>
     <module>act-starter-beetl</module>
-    <module>act-starter-ebean-aaa-java7</module>
-    <module>act-starter-ebean-all-java7</module>
     <module>act-starter-ebean-aaa</module>
     <module>act-starter-ebean-all</module>
     <module>act-starter-eclipselink-aaa</module>
     <module>act-starter-eclipselink-all</module>
     <module>act-starter-excel</module>
-    <module>act-starter-excel-java7</module>
     <module>act-starter-freemarker</module>
     <module>act-starter-hibernate-aaa</module>
     <module>act-starter-hibernate-all</module>
@@ -120,11 +114,6 @@
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>com.zaxxer</groupId>
-        <artifactId>HikariCP-java7</artifactId>
-        <version>${HikariCP-java7.version}</version>
-      </dependency>
       <dependency>
         <groupId>com.zaxxer</groupId>
         <artifactId>HikariCP</artifactId>
@@ -162,11 +151,6 @@
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
-        <artifactId>act-ebean-java7</artifactId>
-        <version>${act-ebean-java7.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.actframework</groupId>
         <artifactId>act-ebean</artifactId>
         <version>${act-ebean.version}</version>
       </dependency>
@@ -179,11 +163,6 @@
         <groupId>org.actframework</groupId>
         <artifactId>act-excel</artifactId>
         <version>${act-excel.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.actframework</groupId>
-        <artifactId>act-excel-java7</artifactId>
-        <version>${act-excel-java7.version}</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
@@ -233,87 +212,77 @@
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-parent</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-beetl</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.actframework</groupId>
-        <artifactId>act-starter-ebean-aaa-java7</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.actframework</groupId>
-        <artifactId>act-starter-ebean-all-java7</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-aaa</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-ebean-all</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-excel</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-eclipselink-aaa</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-eclipselink-all</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-freemarker</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-hibernate-aaa</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-hibernate-all</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-morphia-aaa</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-morphia-all</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-mustache</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-thymeleaf</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.actframework</groupId>
         <artifactId>act-starter-velocity</artifactId>
-        <version>1.8.32.1-SNAPSHOT</version>
+        <version>1.8.33.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
