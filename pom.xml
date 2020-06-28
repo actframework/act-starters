@@ -29,7 +29,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>parent</artifactId>
-    <version>1.9.0</version>
+    <version>1.9.0a</version>
   </parent>
 
   <properties>

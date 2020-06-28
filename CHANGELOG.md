@@ -1,9 +1,9 @@
 # Act Starters Change Log
 
-## 1.9.0.0 - 28/Jun/2020
+## 1.9.0.1 - 28/Jun/2020
 * Drop JDK 7 support
 * Add JDK 9+ support (runtime only)
-* act -> 1.9.0
+* act -> 1.9.0a
 * act-aaa -> 1.10.0
 * starter-support -> 1.9.0
 
