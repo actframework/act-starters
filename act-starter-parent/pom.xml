@@ -414,6 +414,9 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
         <version>${maven-assemply-plugin.version}</version>
+        <configuration>
+          <tarLongFileMode>posix</tarLongFileMode>
+        </configuration>
         <dependencies>
           <dependency>
             <groupId>org.actframework</groupId>

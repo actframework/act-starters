@@ -1,5 +1,8 @@
 # Act Starters Change Log
 
+## 1.9.0.2 - 19/Dec/2020
+* Error running `mvn package` on MacOS #8
+
 ## 1.9.0.1 - 28/Jun/2020
 * Drop JDK 7 support
 * Add JDK 9+ support (runtime only)
