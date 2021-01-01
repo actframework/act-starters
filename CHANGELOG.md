@@ -1,5 +1,8 @@
 # Act Starters Change Log
 
+## 1.9.1.0 - 01/Jan/2021
+* Update act to 1.9.1a
+
 ## 1.9.0.2 - 19/Dec/2020
 * Error running `mvn package` on MacOS #8
 
