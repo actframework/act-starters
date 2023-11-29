@@ -40,7 +40,7 @@
     <docker.group>default</docker.group>
     <docker.http.port>5460</docker.http.port>
     <docker.cli.port>5461</docker.cli.port>
-    <logback.version>1.2.3</logback.version>
+    <logback.version>1.3.12</logback.version>
   </properties>
 
   <parent>
